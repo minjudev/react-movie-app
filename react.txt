@@ -1,0 +1,4 @@
+#create-react-app
+해당 명령어를 통해 React Web App을 쉽게 Set up할 수 있게 해줌
+
+*yarn은 npm과 동일한 역할을 함
