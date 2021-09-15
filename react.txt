@@ -2,3 +2,17 @@
 해당 명령어를 통해 React Web App을 쉽게 Set up할 수 있게 해줌
 
 *yarn은 npm과 동일한 역할을 함
+
+#react
+브라우저에서 사용할 모든 요소를 생성한다.
+js로 요소를 만들고 html에 밀어넣는다. -> react가 빠른 이유(virtual이고 존재하지 않음)
+react는 소스코드에 처음부터 HTML을 넣지 않고, HTML에서 HTML을 추가하거나 제거하는 법을 알고 있음
+application이 브라우저 로드 시, 빈 HTML을 로드하게 되고 그 후에 react가 HTML을 밀어넣게 됨
+소스코드에는 존재하지 않는 DOM(Virtual DOM)을 react가 만들어냄
+
+#component
+HTML을 반환하는 함수
+<App /> -> js와 HTML 사이의 이런 조합을 jsx라고 부름(react가 소개한 유일한 개념)
+
+#jsx
+js + HTML
