@@ -16,3 +16,6 @@ HTML을 반환하는 함수
 
 #jsx
 js + HTML
+
+#state
+동적 데이터와 함께 작업 시 사용
