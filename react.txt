@@ -28,7 +28,7 @@ react가 component를 생성하고 없애는 방법
 - mounting(태어나는 것, componene가 screen에 표시될 때)
   - constructor(js에서 class를 만들 때 호출됨)
   - render
-  - componentDidMount(componenent가 처음 render될 때)
+  - componentDidMount(componenent가 처음 render될 때 실행)
 - updating(업데이트)
   - render
   - componentDidUpdate(setState 호출 시 render를 호출한 후, 업데이트가 완료되면 componetDidUpdate 실행)
