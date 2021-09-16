@@ -19,3 +19,18 @@ js + HTML
 
 #state
 동적 데이터와 함께 작업 시 사용
+
+#setState
+setState 호출 시 새 state와 함께 render function이 호출됨
+
+#life cycle method
+react가 component를 생성하고 없애는 방법
+- mounting(태어나는 것, componene가 screen에 표시될 때)
+  - constructor(js에서 class를 만들 때 호출됨)
+  - render
+  - componentDidMount(componenent가 처음 render될 때)
+- updating(업데이트)
+  - render
+  - componentDidUpdate(setState 호출 시 render를 호출한 후, 업데이트가 완료되면 componetDidUpdate 실행)
+- unmounting(component가 죽는 것 -> ex. 페이지를 바꿀 때)
+  - componentWillUnmount(component가 떠날 때 호출됨)
