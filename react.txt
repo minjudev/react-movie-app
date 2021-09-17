@@ -34,3 +34,14 @@ react가 component를 생성하고 없애는 방법
   - componentDidUpdate(setState 호출 시 render를 호출한 후, 업데이트가 완료되면 componetDidUpdate 실행)
 - unmounting(component가 죽는 것 -> ex. 페이지를 바꿀 때)
   - componentWillUnmount(component가 떠날 때 호출됨)
+
+#build
+npm run build 실행 시 build 폴더 제공
+
+#deploy
+deploy 하기 전 npm이 predeploy 먼저 호출
+"deploy": "gh-pages -d build"
+deploy 명령어는 gh-pages를 호출하고 build 폴더를 업로드
+
+#react router dom
+네비게이션을 만들어주는 패키지
